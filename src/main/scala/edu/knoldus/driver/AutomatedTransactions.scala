@@ -15,5 +15,6 @@ object AutomatedTransactions extends App{
   val newUser: UserAccount = accountService.createUserAccount("nancy","East Delhi",30000)
 
   accountGeneratorActor ! newUser
-  
+
+
 }
